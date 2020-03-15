@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "vvedite im9"
+read a
+passwd  $a
+echo "min dlina"
+passwd -n $a
+
+
