@@ -16,7 +16,9 @@ echo "Начать? y/n"
 read str
 while [ "$str" = y ] 
 do
-sudo passwd -aS
+	cd /etc
+	sudo cat shadow
+#sudo passwd -Sa
 echo "введите имя пользователя из списка выше"
 read a
 echo "минимальное время жизни пароля(поле) и максимальное время жизни пароля(5 поле)"
