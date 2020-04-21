@@ -1,7 +1,3 @@
-FROM centos
-RUN yum -y install sudo
-RUN sudo yum -y update
-RUN sudo yum -y install vim
-RUN sudo yum -y install passwd
-COPY test /test
-CMD ./test
+FROM ubuntu
+RUN apt-get update -y && apt-get install build-essential vim gdb gcc-multilib -y
+
