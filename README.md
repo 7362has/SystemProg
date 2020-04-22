@@ -1,2 +1,4 @@
 # SystemProg
-This repository contains the source code for system programming lab_2.
+Задание:
+дан массив из 10 слов. Определить минимальный и максимальный элементы массива.
+разработать программы на языке Си и Ассемблер At&t
